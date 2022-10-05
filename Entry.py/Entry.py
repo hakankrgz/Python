@@ -30,3 +30,4 @@ print("Yarıçapı 2 olan dairenin alanı ",alan,"cm 2 dir")
 karmasikSayi=4+5j
 print("Bir karmaşık sayı=", karmasikSayi+3j)
 print(type(alan))
+print(type(karmasikSayi))
