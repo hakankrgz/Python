@@ -213,7 +213,6 @@ if  i%2==0:
     print(i," Sayısı Çift")
 else:
     print(i," Satı Tektir.")
-"""""
 sayi1=int(input("1. Sayı gir:"))
 sayi2=int(input("2. Sayı gir:"))
 if sayi1>sayi2:
@@ -221,3 +220,55 @@ if sayi1>sayi2:
 else:
     print(sayi2," büyük olandır")
 
+import cmath
+a=int(input("a Sayı gir:"))
+b=int(input("b Sayı gir:"))
+c=int(input("c Sayı gir:"))
+d=b*b-4*a*c
+if d>0:
+    print("İki ayrı kok var.")
+    x1=(-b+(d)**0.5)/(2*a) #x1=(-b+cmath.sqrt(d))/(2*a)
+    x2=(-b-(d)**0.5)/(2*a)
+    print("x1=",x1)
+    print("x2=",x2)
+elif d==0:
+    print("Tek kök var.")
+    x1=-b/(2*a)
+    print("x=",x1)
+else:
+    print("Reel kök yoktur.")
+    x1=(-b+cmath.sqrt(d))/(2*a)
+    x2=(-b-cmath.sqrt(d))/(2*a)
+    print("x1=",x1)
+    print("x2=",x2)
+i=0
+while i<10:
+    i+=1
+    if i==5:
+        continue
+    print(i)
+
+i=0
+while i<10:
+    i+=1
+    if i==5:
+        break
+    print(i)
+
+i=0
+while i<10:
+    i+=1
+    print(i)
+    if i==5:
+        continue
+    """""
+
+t=i=0
+while True:
+    x=int(input("sayı girin: "))
+    if x==0:
+        break
+    i+=1
+    t+=x
+ort=t/i
+print("Ortalama: ",ort) 
