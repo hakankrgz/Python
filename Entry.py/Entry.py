@@ -1,4 +1,5 @@
-from traceback import print_tb
+"""
+from audioop import lin2adpcm, lin2alaw
 
 
 print("Merhaba Güzel Dünya")
@@ -103,3 +104,120 @@ print("Askerlik Yaptı Mı?",askerlikYaptiMiInt)
 askerlikYaptiMiStr=str(askerlikYaptiMi)
 print("Askerlik Yaptı Mı?", askerlikYaptiMiStr)
 print(7//2)
+
+
+ad1="fevzi"
+ad2="Fevzi"
+print(id(ad1))
+print(id(ad2))
+
+ad1="fevzi"
+ad2="fevzi"
+print(id(ad1))
+print(id(ad2))
+
+a=103
+b=3
+print("a&b=",a&b)
+print("a|b=",a|b)
+print("~a=",~a)
+print("a^b=",a^b)
+
+a=11
+b=-10
+print("a>>1=",a>>1)
+print("b>>1=",b>>1)
+a=5
+b=-10
+print("a<<1=",a<<1)
+print("b<<1=",b<<1)
+
+metin=dgwjdkşlas dapsokdlansdasdnlas dpoasndlaksdlşnsaşld saldnaskdjn s dalsdsadas das
+das dasdşaslödişsdasd asdisad as
+dasd asd
+asdasdasdasdsa
+print(metin)
+print("Fevzi","ÖZEK")
+print('Fevzi',"ÖZEK",45)
+ad="Fevzi"
+soyad='ÖZEL'
+yas=45
+print(ad,soyad,yas)
+
+print("Pazartesi","Salı","Çareşamba","Perşembe","Cuma")
+print("Pazartesi","Salı","Çarşamba","Perşembe","Cuma",sep="-"*3)
+print("Pazartesi","Salı","Çarşamba","Perşembe","Cuma",sep="\n")
+
+dosya=open("/Users/hakankaragoz/deneme.txt","w")
+print("Ben Python. Monty Python", file=dosya)
+dosya.close()
+
+a=5
+b=6
+c=3
+print("girdiğiniz {},{}ve{} değerlerinin toplamı {}dır.".format(a,b,c,a+b+c))
+
+
+dilekçe=
+tarih: {}
+T.C.
+{} ÜNİVERSİTESİ
+{} Fakültesi Dekanlığına
+Fakülteniz {} Bölümü dasdoaksdpğsadkas dasmdas dsadsalkdsac as d
+dasdasdsadasodsa dsandpksamdkasmdalskmdkşas
+tarih=input("tarih: ")
+üniversite=input("üni adı: ")
+fakülte=input("fakülte adı: ")
+bölüm=input("bölüm adı: ")
+print(dilekçe.format(tarih,üniversite,fakülte,bölüm))
+print("\n*3")
+
+print("Yarın Adana'ya gidiyorum.\n")
+print('"book" kelimesi Türkçede "kitap" anlamına gelir.\n')
+print("birinci satır\n")
+print("ikinci satır\n")
+print("üçüncü satır\n")
+print("Bir\nİki\nÜç\nFevzi\t ÖZEK\nBir\tiki")
+
+isim=input("İsminiz nedir?")
+print("Merhaba")
+yaş=input("Yaşınız: ")
+print("Demek", yaş,"yaşındasın.")
+print("Genç mi yoksa yaşlı mı olduğuna karar veremedim.")
+
+çap=input("Dairenin çapı: ")
+yarıçap=int(çap)/2
+pi=3.14159
+alan=pi*(yarıçap*yarıçap)
+print("Çapı",çap,"cm olan dairenin alanı:",alan,"cm2'dir.")
+
+gun1=int(input("1. Günü giriniz: "))
+ay1=int(input("1. Ayı giriniz: "))
+yil1=int(input("1. Yılı giriniz: "))
+
+gun2=int(input("2. Günü giriniz: "))
+ay2=int(input("2. Ayı giriniz: "))
+yil2=int(input("2. Yılı giriniz: "))
+
+if gun1<gun2:
+    ay1-=1
+    gun1+=30
+if ay1<ay2
+sayi=int(input("Sayı girin: "))
+if sayi<0:
+    print(sayi," sayısı negatiftir.")
+
+
+i=int(input("Sayı gir:"))
+if  i%2==0:
+    print(i," Sayısı Çift")
+else:
+    print(i," Satı Tektir.")
+"""""
+sayi1=int(input("1. Sayı gir:"))
+sayi2=int(input("2. Sayı gir:"))
+if sayi1>sayi2:
+    print(sayi1," büyük olandır")
+else:
+    print(sayi2," büyük olandır")
+
